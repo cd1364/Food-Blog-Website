@@ -3,12 +3,12 @@ from flask_bcrypt import Bcrypt
 import functions
 from flask_login import LoginManager, UserMixin, login_user, current_user, logout_user, login_required
 from flask_pymongo import PyMongo
-from flask_pymongo import ObjectId
+from bson.objectid import ObjectId
 import random
 from functools import wraps
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb://localhost:27017/ADBMS_Project"
+app.config["MONGO_URI"] = "mongodb://localhost:27017/mds_kitchen"
 
 mongo = PyMongo(app)
 bcrypt = Bcrypt(app)
