@@ -13,9 +13,7 @@ The website allows users to browse delicious food recipes, add new recipes, and 
 * 📄 Add new food recipes
 * 📝 Edit or delete recipes
 * 🔍 Search recipes
-* 📷 Upload food images
 * 🗄️ Store and manage data using MongoDB
-* 🎨 Responsive UI with HTML/CSS
 
 ## 🛠️ Tech Stack
 
